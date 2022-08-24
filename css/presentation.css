@@ -1,0 +1,64 @@
+.presentation_wrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 100vw;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding-top: 20vh;
+}
+
+.presentation_left {
+  display: flex;
+  flex-direction: column;
+  width: 46vw;
+}
+
+.presentation_right {
+  display: flex;
+  flex-direction: column;
+  width: 46vw;
+  padding-right: 8vw;
+  font-family: Eudoxus;
+}
+
+.presentation_right_intro > p {
+  font-size: calc(10px + 36 * ((100vw - 700px) / 1099));
+  color: #f4f4f4;
+  line-height: 1.3em;
+  letter-spacing: 0.005em;
+}
+
+.presentation_right_experience {
+  margin-top: 25vh;
+}
+
+.presentation_right_experience h2 {
+  font-size: calc(10px + 36 * ((100vw - 700px) / 1099));
+  color: #f4f4f4;
+  margin-bottom: 10vh;
+}
+
+.presentation_right_block {
+  margin: 8vh 0vw 8vh 5vw;
+}
+
+.presentation_right_name span {
+  font-size: calc(10px + 26 * ((100vw - 700px) / 1099));
+  font-weight: 600;
+  color: #f4f4f4;
+  line-height: 1.4em;
+  letter-spacing: 0.005em;
+}
+
+.presentation_right_date {
+  margin-top: 2vh;
+}
+
+.presentation_right_date span {
+  font-size: calc(10px + 10 * ((100vw - 700px) / 1099));
+  font-weight: 600;
+  color: #6b6b6e;
+  letter-spacing: 0.005em;
+}

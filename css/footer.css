@@ -1,7 +1,7 @@
 /*!    RESPONSIVE    */
 /* MIN-WIDTH 0px */
 @media screen and (min-width: 0px) {
-  .footer__wrapper {
+  .footer_wrapper {
     display: grid;
     justify-items: stretch;
     grid-template-rows: 100%;
@@ -12,7 +12,7 @@
     min-height: 70vh;
   }
 
-  .footer__column__block {
+  .footer_column_block {
     border-top: 1px solid #3a3a3e;
     background: linear-gradient(180deg, #161618, transparent);
     overflow: hidden;
@@ -20,7 +20,7 @@
     height: 100%;
   }
 
-  .footer__column {
+  .footer_column {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,11 +33,11 @@
     height: calc(100% - 4vw);
   }
 
-  .footer__column:hover {
+  .footer_column:hover {
     background: transparent;
   }
 
-  .footer__column__left {
+  .footer_column_left {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -49,7 +49,7 @@
     overflow: hidden;
   }
 
-  .footer__block__top {
+  .footer_block_top {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -57,7 +57,7 @@
     height: 30%;
   }
 
-  .footer__block__middle {
+  .footer_block_middle {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -65,7 +65,7 @@
     height: 30%;
   }
 
-  .footer__block__bottom {
+  .footer_block_bottom {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -73,7 +73,7 @@
     height: 30%;
   }
 
-  .footer__block__top span {
+  .footer_block_top span {
     text-align: center;
     cursor: default;
     text-transform: uppercase;
@@ -84,19 +84,19 @@
     color: #6b6b6e;
   }
 
-  .footer__block__top img {
+  .footer_block_top img {
     max-width: 30%;
     height: auto;
   }
 
-  .footer__block__middle h1 {
+  .footer_block_middle h1 {
     width: 100%;
     color: #f0f0f0;
     font-size: 34px;
     font-weight: 500;
   }
 
-  .footer__block__middle a {
+  .footer_block_middle a {
     margin-top: 0.2rem;
     margin-bottom: 0.2rem;
     padding-top: 0.2rem;
@@ -113,15 +113,15 @@
     transition: 0.3s;
   }
 
-  .footer__block__middle a:hover {
+  .footer_block_middle a:hover {
     transform: translate(20px);
   }
 
-  .footer__block__middle a:hover {
+  .footer_block_middle a:hover {
     transform: translate(20px);
   }
 
-  .footer__block__bottom a {
+  .footer_block_bottom a {
     text-align: center;
     cursor: pointer;
     text-transform: uppercase;
@@ -133,11 +133,11 @@
     transition: 0.3s;
   }
 
-  .footer__block__bottom a:hover {
+  .footer_block_bottom a:hover {
     color: #efefef;
   }
 
-  .footer__block__bottom span {
+  .footer_block_bottom span {
     text-align: center;
     text-transform: uppercase;
     width: 100%;
@@ -150,73 +150,73 @@
 
 /* MIN-WIDTH 768px */
 @media screen and (min-width: 768px) {
-  .footer__wrapper {
+  .footer_wrapper {
     grid-template-columns: 25% 25% 25% 25%;
   }
 
-  .footer__block__top img {
+  .footer_block_top img {
     max-width: 65%;
   }
 
-  .footer__block__top span {
+  .footer_block_top span {
     font-size: 12px;
   }
 
-  .footer__block__middle h1 {
+  .footer_block_middle h1 {
     font-size: 28px;
   }
 
-  .footer__block__middle a {
+  .footer_block_middle a {
     font-size: 12px;
   }
 
-  .footer__block__bottom a {
+  .footer_block_bottom a {
     font-size: 12px;
   }
 
-  .footer__block__bottom span {
+  .footer_block_bottom span {
     font-size: 12px;
   }
 }
 
 /* MIN-WIDTH 1024px */
 @media screen and (min-width: 1024px) {
-  .footer__block__top img {
+  .footer_block_top img {
     max-width: 30%;
   }
 }
 
 /* MIN-WIDTH 1600px */
 @media screen and (min-width: 1600px) {
-  .footer__column {
+  .footer_column {
     padding-left: 2rem;
   }
 
-  .footer__column:hover {
+  .footer_column:hover {
     background: transparent;
   }
 
-  .footer__block__top span {
+  .footer_block_top span {
     text-align: left;
   }
 
-  .footer__block__middle h1 {
+  .footer_block_middle h1 {
     font-size: 34px;
   }
 
-  .footer__block__middle a {
+  .footer_block_middle a {
     text-align: left;
   }
 
-  .footer__block__bottom a {
+  .footer_block_bottom a {
     text-align: left;
   }
 
-  .footer__block__bottom a:hover {
+  .footer_block_bottom a:hover {
     color: #efefef;
   }
 
-  .footer__block__bottom span {
+  .footer_block_bottom span {
     text-align: left;
   }
 }

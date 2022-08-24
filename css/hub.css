@@ -1,5 +1,5 @@
 @media screen and (min-width: 0px) {
-  .hub__wrapper {
+  .hub_wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,19 +13,19 @@
     overflow: hidden;
   }
 
-  .hub__line {
+  .hub_line {
     position: absolute !important;
     white-space: nowrap;
   }
 
-  .hub__line:first-child {
+  .hub_line:first-child {
     top: 45vh;
     left: 8.3333vw;
     transform: translate(0%, -75%) rotate(0deg);
     animation: 2s apparition_1 ease;
   }
 
-  .hub__line:last-child {
+  .hub_line:last-child {
     display: block;
     text-align: center;
     top: 45vh;
@@ -34,7 +34,7 @@
     animation: 2s apparition_2 ease;
   }
 
-  .hub__word__underline {
+  .hub_word_underline {
     position: absolute;
     bottom: 15%;
     left: 0;
@@ -45,30 +45,30 @@
     animation: 2.75s apparition_4 ease;
   }
 
-  .hub__word__wrap:hover .hub__word__underline {
-    background-color: #4184bf;
+  .hub_word_wrap:hover .hub_word_underline {
+    background-color: #ffa41c;
     transform-origin: center right;
-    transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    transition: 0.8s cubic-bezier(0.25, 1, 0.5, 1);
   }
 
-  .hub__word__wrap {
+  .hub_word_wrap {
     position: relative;
     display: inline-block;
     overflow: hidden;
   }
 
-  .hub__word {
+  .hub_word {
     position: relative;
     display: inline-block;
     transform: translate(0px, 0px);
     animation: 0.75s apparition_3 ease;
   }
 
-  .hub__line a {
+  .hub_line a {
     color: #ffffff;
   }
 
-  .hub__scroll__down {
+  .hub_scroll_down {
     font-family: Jakarta_Regular;
     transform-origin: 0% 50%;
     transform: translate(-50%, 0%) translate(-0.1905px, 0px);
@@ -103,20 +103,20 @@
     animation: 2.75s apparition_5 ease;
   }
 
-  .hub__scroll__down > span {
-    font-size: calc(12px + 10 * ((100vw - 700px) / 1099));
+  .hub_scroll_down > span {
+    font-size: calc(8px + 10 * ((100vw - 700px) / 1099));
     margin-bottom: 10px;
   }
 
-  .hub__scroll__down > img {
-    height: calc(50px + 10 * ((100vw - 700px) / 1099));
+  .hub_scroll_down > img {
+    height: calc(35px + 10 * ((100vw - 700px) / 1099));
     transition: transform 1s cubic-bezier(0.25, 1, 0.5, 1),
       -webkit-transform 1s cubic-bezier(0.25, 1, 0.5, 1);
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(250deg)
       brightness(125%) contrast(100%);
   }
 
-  .hub__scroll__down > img:hover {
+  .hub_scroll_down > img:hover {
     transform: translate(0px, 10px);
   }
 }

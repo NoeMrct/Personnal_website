@@ -88,6 +88,7 @@
     <link rel="stylesheet" href="./css/loader.css" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/hub.css" />
+    <link rel="stylesheet" href="./css/presentation.css" />
     <link rel="stylesheet" href="./css/footer.css" />
   </head>
 
@@ -100,94 +101,131 @@
     <div id="website">
       <!-- HUB -->
       <section id="hub">
-        <div class="hub__wrapper" id="hub__container">
-          <div class="hub__line" id="firstText">
-            <div class="hub__word__wrap">
-              <div class="hub__word">L'</div>
+        <div class="hub_wrapper" id="hub_container">
+          <div class="hub_line" id="firstText">
+            <div class="hub_word_wrap">
+              <div class="hub_word">The</div>
             </div>
-            <a href="">
-              <div class="hub__word__wrap">
-                <div class="hub__word__underline"></div>
-                <div class="hub__word">expertise</div>
+            <a href="#experience">
+              <div class="hub_word_wrap">
+                <div class="hub_word_underline"></div>
+                <div class="hub_word">expertise</div>
               </div>
             </a>
           </div>
 
-          <div class="hub__line" id="secondText">
-            <div class="hub__word__wrap">
-              <div class="hub__word">d'un</div>
+          <div class="hub_line" id="secondText">
+            <div class="hub_word_wrap">
+              <div class="hub_word">of an</div>
             </div> 
-            <a href="">
-              <div class="hub__word__wrap">
-                <div class="hub__word__underline"></div>
-                <div class="hub__word">passionné</div>
+            <a href="#presentation">
+              <div class="hub_word_wrap">
+                <div class="hub_word_underline"></div>
+                <div class="hub_word">enthusiast</div>
               </div>
             </a>
           </div>
         </div>
-        <button class="hub__scroll__down">
-          <span>Défilez</span>
+        <button class="hub_scroll_down">
+          <span>Scroll down</span>
           <img  src="./img/scroll-down-arrow.svg"></img>
         </button>
       </section>
 
-      <footer id="footer">
-        <div class="footer__wrapper">
-          <div class="footer__column__left">
-            <div class="footer__block__top">
-              <img src="./img/Logotype.webp" alt="logo de Noé Mercourt"></img>
+      <!-- PRESENTATION -->
+      <section id="presentation">
+        <div class="presentation_wrapper">
+          <div class="presentation_left"></div>
+          <div class="presentation_right">
+            <div class="presentation_right_intro">
+              <p>I've been a web developer for several years, I learned everything on my own but being passionate about development I learned fast.<br/><br/>
+              Very quickly I loved the front-end. I learned a lot about UX design thanks to the Discovery Discipline.</p>
             </div>
-            <div class="footer__block__middle">
-              <h1>Noé Mercourt EI</h1>
-            </div>
-            <div class="footer__block__bottom">
-              <span>Développeur web professionnel qui améliore votre SEO, optimise votre site et réduit la latence, ainsi qu'une visibilité totale.</span>
+            <div class="presentation_right_experience" id="experience">
+              <h2>Working Experience</h2>
+
+              <div class="presentation_right_block">
+                <div class="presentation_right_name">
+                  <span>Freelance Developer <br/> Digity Esport</span>
+                </div>
+                <div class="presentation_right_date">
+                  <span>Aug. 2022 - Present</span>
+                </div>
+              </div>
+              
+              <div class="presentation_right_block">
+                <div class="presentation_right_name">
+                  <span>Freelance Developer <br/> Publigraphique</span>
+                </div>
+                <div class="presentation_right_date">
+                  <span>Jul. 2022 - Aug. 2022</span>
+                </div>
+              </div>
+              
             </div>
           </div>
-          <div class="footer__column__block">
-            <div class="footer__column">
-              <div class="footer__block__top">
-                <span>Partenaires</span>
+        </div>
+      </section>
+
+
+      <!-- FOOTER -->
+      <footer id="footer">
+        <div class="footer_wrapper">
+          <div class="footer_column_left">
+            <div class="footer_block_top">
+              <img src="./img/Logotype.webp" alt="logo de Noé Mercourt"></img>
+            </div>
+            <div class="footer_block_middle">
+              <h1>Noé Mercourt EI</h1>
+            </div>
+            <div class="footer_block_bottom">
+              <span>Passionate web developer who improves your SEO, optimizes your site and reduces latency.</span>
+            </div>
+          </div>
+          <div class="footer_column_block">
+            <div class="footer_column">
+              <div class="footer_block_top">
+                <span>Partners</span>
               </div>
-              <div class="footer__block__middle">
+              <div class="footer_block_middle">
                 <a href="https://publigraphique.com/">Publigraphique</a>
               </div>
-              <div class="footer__block__bottom">
-                <a href="./pdf/Mentions légales et politique de confidentialité.pdf" download>Mentions légales</a>
+              <div class="footer_block_bottom">
+                <a href="./pdf/Mentions légales et politique de confidentialité.pdf" download>Legal information</a>
               </div>
             </div>
           </div>
 
-          <div class="footer__column__block">
-            <div class="footer__column">
-              <div class="footer__block__top">
-                <span>GÉNÉRALE</span>
+          <div class="footer_column_block">
+            <div class="footer_column">
+              <div class="footer_block_top">
+                <span>GENERAL</span>
               </div>
-              <div class="footer__block__middle">
-                <a href="#home">À propos de moi</a>
-                <a href="#presentation">Présentation</a>
-                <a href="#">Prendre RDV</a>
-                <a href="./pdf/Mentions légales et politique de confidentialité.pdf" download>Informations légales</a>
+              <div class="footer_block_middle">
+                <a href="#presentation">About me</a>
+                <a href="#experience">Presentation</a>
+                <a href="#">Book an appointment</a>
+                <a href="./pdf/Mentions légales et politique de confidentialité.pdf" download>Legal information</a>
               </div>
-              <div class="footer__block__bottom">
+              <div class="footer_block_bottom">
                 <a href="./pdf/Mentions légales et politique de confidentialité.pdf" download>CGV & Cookies</a>
               </div>
             </div>
           </div>
 
-          <div class="footer__column__block">
-            <div class="footer__column">
-              <div class="footer__block__top">
-                <span>Réseaux</span>
+          <div class="footer_column_block">
+            <div class="footer_column">
+              <div class="footer_block_top">
+                <span>Personal networks</span>
               </div>
-              <div class="footer__block__middle">
-                <a href="https://www.tiktok.com/@noe_mrct" target="_blank">Tik Tok</a>
+              <div class="footer_block_middle">
+                <a href="https://www.tiktok.com/@noe_mrct" target="_blank">TikTok</a>
                 <a href="https://www.instagram.com/noe_mrct/" target="_blank">Instagram</a>
                 <a href="https://twitter.com/NoeMrct" target="_blank">Twitter</a>
                 <a href="https://www.linkedin.com/in/no%C3%A9-mercourt" target="_blank">LinkedIn</a>
               </div>
-              <div class="footer__block__bottom">
-                <span>© Copyright 2022 | Fait avec ♥ par Noé | Tous droits réservés</span>
+              <div class="footer_block_bottom">
+                <span>© Copyright 2022 | Made with ♥ by Noé | All rights reserved</span>
               </div>
             </div>
           </div>
