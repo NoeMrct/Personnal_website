@@ -170,3 +170,7 @@ span {
   font-family: Jakarta_Regular;
   src: url("../fonts/PlusJakartaText-Regular.otf");
 }
+
+.active {
+  opacity: 1 !important;
+}

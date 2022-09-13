@@ -10,3 +10,13 @@ document.addEventListener("scroll", () => {
   document.getElementById("secondText").style.left =
     91.6667 - window.scrollY * 0.05 + "vw";
 });
+
+function showDescription(element, image) {
+  if (element.style.display == "none") {
+    image.src = "./img/down-arrow.svg";
+    element.style.display = "block";
+  } else {
+    image.src = "./img/right-arrow.svg";
+    element.style.display = "none";
+  }
+}
